@@ -1,0 +1,15 @@
+Java Launcher: C:\Users\Carwy\.jdks\ms-17.0.18\bin\java.exe
+Arguments: '--task, SRG_TO_MCP, --input, C:\Users\Carwy\.gradle\caches\modules-2\files-2.1\mezz.jei\jei-1.20.1-common-api\15.8.2.26\428cf6ae700d6f2eb37813a1ff6f227db5232980\jei-1.20.1-common-api-15.8.2.26.jar, --output, C:\Users\Carwy\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.20.1-common-api\15.8.2.26_mapped_parchment_2023.06.26-1.20.1\jei-1.20.1-common-api-15.8.2.26_mapped_parchment_2023.06.26-1.20.1.jar, --mcp, C:\Users\Carwy\.gradle\caches\parchmentgradle\org\parchmentmc\data\parchment-1.20.1\2023.06.26\parchment-1.20.1-2023.06.26.zip, --strip-signatures'
+Classpath:
+ - C:\Users\Carwy\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.4.4\installertools-1.4.4-fatjar.jar
+Working directory: D:\Documents\Java\TakeoutsMoreOres-1.20.1-Forge\build\_RenameSrg2Mcp_-1518982781
+Main class: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\Carwy\.gradle\caches\modules-2\files-2.1\mezz.jei\jei-1.20.1-common-api\15.8.2.26\428cf6ae700d6f2eb37813a1ff6f227db5232980\jei-1.20.1-common-api-15.8.2.26.jar
+Output: C:\Users\Carwy\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.20.1-common-api\15.8.2.26_mapped_parchment_2023.06.26-1.20.1\jei-1.20.1-common-api-15.8.2.26_mapped_parchment_2023.06.26-1.20.1.jar
+MCP:    C:\Users\Carwy\.gradle\caches\parchmentgradle\org\parchmentmc\data\parchment-1.20.1\2023.06.26\parchment-1.20.1-2023.06.26.zip
+Loading MCP Data
+Processing ZIP file
+Stripped Manifest of sha digests
+Process complete

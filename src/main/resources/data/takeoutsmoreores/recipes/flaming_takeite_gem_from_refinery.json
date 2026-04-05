@@ -1,0 +1,12 @@
+{
+  "type": "takeoutsmoreores:refinery",
+  "ingredients": [
+    {
+      "item": "takeoutsmoreores:flaming_takeite"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "takeoutsmoreores:flaming_takeite_gem"
+  }
+}

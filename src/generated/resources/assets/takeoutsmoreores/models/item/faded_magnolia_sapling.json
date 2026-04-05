@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "takeoutsmoreores:block/faded_magnolia_sapling"
+  }
+}

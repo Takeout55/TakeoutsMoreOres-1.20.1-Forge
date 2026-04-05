@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "takeoutsmoreores:block/hollow_pine_planks"
+  }
+}

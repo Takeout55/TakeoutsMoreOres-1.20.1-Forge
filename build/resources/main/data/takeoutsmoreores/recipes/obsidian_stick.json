@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    " O ",
+    " C ",
+    " O "
+  ],
+  "result": {
+    "item": "takeoutsmoreores:obsidian_stick"
+  },
+  "show_notification": true
+}

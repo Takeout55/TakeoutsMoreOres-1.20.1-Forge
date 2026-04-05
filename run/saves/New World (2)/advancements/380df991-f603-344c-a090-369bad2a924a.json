@@ -1,0 +1,624 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-04-03 12:58:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2026-04-03 12:58:51 +0100",
+      "minecraft:snowy_taiga": "2026-04-03 12:58:33 +0100",
+      "minecraft:forest": "2026-04-03 12:59:13 +0100",
+      "minecraft:snowy_beach": "2026-04-03 12:58:57 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2026-04-03 12:59:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2026-04-03 12:59:45 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/dirt_slab": {
+    "criteria": {
+      "has_dirt": "2026-04-03 13:00:21 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/dirt_stairs": {
+    "criteria": {
+      "has_dirt": "2026-04-03 13:00:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2026-04-03 13:00:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2026-04-03 13:00:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-04-03 13:01:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-04-03 13:01:07 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/multiversium_ingot_from_blasting_end_stone_multiversium_ore": {
+    "criteria": {
+      "has_end_stone_multiversium_ore": "2026-04-03 13:01:45 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_fence_gate": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_stairs": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_slab": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2026-04-03 17:37:46 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/cheesium_fence_gate": {
+    "criteria": {
+      "has_cheesium": "2026-04-03 17:43:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:basalt_deltas": "2026-04-03 17:47:58 +0100"
+    },
+    "done": false
+  },
+  "takeoutsmoreores:recipes/misc/foxtrogen_block": {
+    "criteria": {
+      "has_foxtrogen": "2026-04-03 17:39:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-04-03 17:39:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2026-04-03 17:37:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2026-04-03 17:37:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2026-04-03 17:37:46 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/cheesium_pressure_plate": {
+    "criteria": {
+      "has_cheesium": "2026-04-03 17:43:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2026-04-03 17:39:09 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/flaming_takeite_from_smelting_nether_flaming_takeite_ore": {
+    "criteria": {
+      "has_nether_flaming_takeite_ore": "2026-04-03 17:47:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2026-04-03 17:39:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-04-03 17:47:58 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/cheesium_slab": {
+    "criteria": {
+      "has_cheesium": "2026-04-03 17:43:53 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/frozen_takeite_from_smelting_end_stone_frozen_takeite_ore": {
+    "criteria": {
+      "has_end_stone_frozen_takeite_ore": "2026-04-03 17:45:28 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/frozen_takeite_from_blasting_end_stone_frozen_takeite_ore": {
+    "criteria": {
+      "has_end_stone_frozen_takeite_ore": "2026-04-03 17:45:28 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/flaming_takeite_sword": {
+    "criteria": {
+      "has_flaming_takeite_gem": "2026-04-03 17:37:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2026-04-03 17:39:38 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_door": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2026-04-03 17:36:25 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/flaming_takeite_from_blasting_nether_flaming_takeite_ore": {
+    "criteria": {
+      "has_nether_flaming_takeite_ore": "2026-04-03 17:47:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2026-04-03 17:37:46 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/frozen_takeite_block": {
+    "criteria": {
+      "has_frozen_takeite": "2026-04-03 17:37:40 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/flaming_takeite_block": {
+    "criteria": {
+      "has_flaming_takeite": "2026-04-03 17:37:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2026-04-03 17:39:09 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_hoe": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2026-04-03 17:39:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-04-03 17:43:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2026-04-03 17:37:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2026-04-03 17:37:46 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_wall": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refinery_block": {
+    "criteria": {
+      "has_diamond": "2026-04-03 17:37:46 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_chestplate": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/flaming_takeite_boots": {
+    "criteria": {
+      "has_flaming_takeite_gem": "2026-04-03 17:37:58 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/flaming_takeite_helmet": {
+    "criteria": {
+      "has_flaming_takeite_gem": "2026-04-03 17:37:58 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/thimeite_from_blasting_nether_thimeite_ore": {
+    "criteria": {
+      "has_nether_thimeite_ore": "2026-04-03 17:47:26 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_shovel": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/flaming_takeite_axe": {
+    "criteria": {
+      "has_flaming_takeite_gem": "2026-04-03 17:37:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2026-04-03 17:39:09 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/flaming_takeite_leggings": {
+    "criteria": {
+      "has_flaming_takeite_gem": "2026-04-03 17:37:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2026-04-03 17:37:46 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/cheesium_wall": {
+    "criteria": {
+      "has_cheesium": "2026-04-03 17:43:53 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/flaming_takeite_chestplate": {
+    "criteria": {
+      "has_flaming_takeite_gem": "2026-04-03 17:37:58 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/metal_detector": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2026-04-03 17:48:21 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_pressure_plate": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/foxtrogen": {
+    "criteria": {
+      "has_foxtrogen_block": "2026-04-03 17:39:04 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_block": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/thimeite_from_smelting_nether_thimeite_ore": {
+    "criteria": {
+      "has_nether_thimeite_ore": "2026-04-03 17:47:26 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_sword": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/cheesium_from_smelting_end_stone_cheesium_ore": {
+    "criteria": {
+      "has_end_stone_cheesium_ore": "2026-04-03 17:43:39 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_boots": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/cheesium_trapdoor": {
+    "criteria": {
+      "has_cheesium": "2026-04-03 17:43:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-04-03 17:47:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2026-04-03 17:47:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-04-03 17:35:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2026-04-03 17:37:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2026-04-03 17:39:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-04-03 17:47:45 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/cheesium_block": {
+    "criteria": {
+      "has_cheesium": "2026-04-03 17:43:53 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/flaming_takeite_gem": {
+    "criteria": {
+      "has_flaming_takeite": "2026-04-03 17:37:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-04-03 17:39:38 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_pickaxe": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2026-04-03 17:48:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2026-04-03 17:39:09 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_fence": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/flaming_takeite_hoe": {
+    "criteria": {
+      "has_flaming_takeite_gem": "2026-04-03 17:37:58 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_axe": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_leggings": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/frozen_takeite_gem": {
+    "criteria": {
+      "has_frozen_takeite": "2026-04-03 17:37:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2026-04-03 17:36:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2026-04-03 17:37:46 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/cheesium_from_blasting_end_stone_cheesium_ore": {
+    "criteria": {
+      "has_end_stone_cheesium_ore": "2026-04-03 17:43:39 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/flaming_takeite_shovel": {
+    "criteria": {
+      "has_flaming_takeite_gem": "2026-04-03 17:37:58 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_trapdoor": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/cheesium_door": {
+    "criteria": {
+      "has_cheesium": "2026-04-03 17:43:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2026-04-03 17:47:45 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_helmet": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond_from_shards": {
+    "criteria": {
+      "has_refined_diamond": "2026-04-03 17:37:52 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/cheesium_button": {
+    "criteria": {
+      "has_cheesium": "2026-04-03 17:43:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2026-04-03 17:37:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2026-04-03 17:37:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-04-03 17:39:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-04-03 17:39:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2026-04-03 17:48:21 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/flaming_takeite_pickaxe": {
+    "criteria": {
+      "has_flaming_takeite_gem": "2026-04-03 17:37:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2026-04-03 17:39:09 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/cheesium_fence": {
+    "criteria": {
+      "has_cheesium": "2026-04-03 17:43:53 +0100"
+    },
+    "done": true
+  },
+  "takeoutsmoreores:recipes/misc/refined_diamond": {
+    "criteria": {
+      "has_diamond": "2026-04-03 17:37:46 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

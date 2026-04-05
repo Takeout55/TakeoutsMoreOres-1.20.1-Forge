@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_multiversium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "takeoutsmoreores:multiversium_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "takeoutsmoreores:multiversium_leggings"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_multiversium_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "takeoutsmoreores:multiversium_leggings"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "takeoutsmoreores:holonite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "takeoutsmoreores:holonite"
+  }
+}

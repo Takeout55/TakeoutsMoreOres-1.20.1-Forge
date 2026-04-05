@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "takeoutsmoreores:refined_uranium"
+    },
+    "F": {
+      "item": "takeoutsmoreores:uranium_rod"
+    }
+  },
+  "pattern": [
+    "FFF",
+    "FEF",
+    "FFF"
+  ],
+  "result": {
+    "item": "takeoutsmoreores:uranium_rod"
+  },
+  "show_notification": true
+}

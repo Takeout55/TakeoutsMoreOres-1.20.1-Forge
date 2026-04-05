@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "takeoutsmoreores:block/missing_slab"
+    },
+    "type=double": {
+      "model": "takeoutsmoreores:block/missing_planks"
+    },
+    "type=top": {
+      "model": "takeoutsmoreores:block/missing_slab_top"
+    }
+  }
+}

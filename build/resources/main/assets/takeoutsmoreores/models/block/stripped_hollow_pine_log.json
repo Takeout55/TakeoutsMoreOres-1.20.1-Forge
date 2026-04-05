@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "takeoutsmoreores:block/stripped_hollow_pine_log_top",
+    "side": "takeoutsmoreores:block/stripped_hollow_pine_log"
+  }
+}

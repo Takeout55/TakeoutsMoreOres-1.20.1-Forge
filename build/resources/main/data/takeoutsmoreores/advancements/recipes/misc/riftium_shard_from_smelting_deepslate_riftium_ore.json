@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_riftium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "takeoutsmoreores:deepslate_riftium_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "takeoutsmoreores:riftium_shard_from_smelting_deepslate_riftium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_deepslate_riftium_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "takeoutsmoreores:riftium_shard_from_smelting_deepslate_riftium_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

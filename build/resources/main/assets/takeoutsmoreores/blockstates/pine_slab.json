@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "takeoutsmoreores:block/pine_slab"
+    },
+    "type=double": {
+      "model": "takeoutsmoreores:block/pine_planks"
+    },
+    "type=top": {
+      "model": "takeoutsmoreores:block/pine_slab_top"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "render_type": "minecraft:cutout",
+    "parent": "takeoutsmoreores:block/foxtrogen_dust_side",
+    "textures": {
+        "line": "takeoutsmoreores:block/foxtrogen_dust_line0"
+    }
+}

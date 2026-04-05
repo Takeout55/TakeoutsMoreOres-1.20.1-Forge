@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_foxtrogen": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "takeoutsmoreores:foxtrogen"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "takeoutsmoreores:foxtrogen_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_foxtrogen",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "takeoutsmoreores:foxtrogen_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,24 @@
+{
+  "values": [
+    "takeoutsmoreores:pine_log",
+    "takeoutsmoreores:pine_wood",
+    "takeoutsmoreores:stripped_pine_log",
+    "takeoutsmoreores:stripped_pine_wood",
+    "takeoutsmoreores:faded_magnolia_log",
+    "takeoutsmoreores:faded_magnolia_wood",
+    "takeoutsmoreores:stripped_faded_magnolia_log",
+    "takeoutsmoreores:stripped_faded_magnolia_wood",
+    "takeoutsmoreores:missing_log",
+    "takeoutsmoreores:missing_wood",
+    "takeoutsmoreores:stripped_missing_log",
+    "takeoutsmoreores:stripped_missing_wood",
+    "takeoutsmoreores:infernal_hyphae_log",
+    "takeoutsmoreores:infernal_hyphae_wood",
+    "takeoutsmoreores:stripped_infernal_hyphae_log",
+    "takeoutsmoreores:stripped_infernal_hyphae_wood",
+    "takeoutsmoreores:hollow_pine_log",
+    "takeoutsmoreores:hollow_pine_wood",
+    "takeoutsmoreores:stripped_hollow_pine_log",
+    "takeoutsmoreores:stripped_hollow_pine_wood"
+  ]
+}

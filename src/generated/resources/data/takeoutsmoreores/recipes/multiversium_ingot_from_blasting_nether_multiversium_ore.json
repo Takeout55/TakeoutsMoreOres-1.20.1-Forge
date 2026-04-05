@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "multiversium",
+  "ingredient": {
+    "item": "takeoutsmoreores:nether_multiversium_ore"
+  },
+  "result": "takeoutsmoreores:multiversium_ingot"
+}

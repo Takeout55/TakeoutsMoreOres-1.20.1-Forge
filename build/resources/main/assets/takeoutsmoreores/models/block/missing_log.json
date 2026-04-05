@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "takeoutsmoreores:block/missing_log_top",
+    "side": "takeoutsmoreores:block/missing_log"
+  }
+}

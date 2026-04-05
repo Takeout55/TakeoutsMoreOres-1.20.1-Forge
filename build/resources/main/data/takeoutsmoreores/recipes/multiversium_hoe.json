@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "takeoutsmoreores:multiversium_ingot"
+    },
+    "T": {
+      "item": "takeoutsmoreores:metastone_rod"
+    }
+  },
+  "pattern": [
+    "SS",
+    "T ",
+    "T "
+  ],
+  "result": {
+    "item": "takeoutsmoreores:multiversium_hoe"
+  },
+  "show_notification": true
+}

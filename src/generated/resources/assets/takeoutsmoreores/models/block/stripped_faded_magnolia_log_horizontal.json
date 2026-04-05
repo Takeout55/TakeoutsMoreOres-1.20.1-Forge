@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "takeoutsmoreores:block/stripped_faded_magnolia_log_top",
+    "side": "takeoutsmoreores:block/stripped_faded_magnolia_log"
+  }
+}

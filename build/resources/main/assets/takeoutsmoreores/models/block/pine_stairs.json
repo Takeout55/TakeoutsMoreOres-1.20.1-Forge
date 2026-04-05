@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "takeoutsmoreores:block/pine_planks",
+    "side": "takeoutsmoreores:block/pine_planks",
+    "top": "takeoutsmoreores:block/pine_planks"
+  }
+}

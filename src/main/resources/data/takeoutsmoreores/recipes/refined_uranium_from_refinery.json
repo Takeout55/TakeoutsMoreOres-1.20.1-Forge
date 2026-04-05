@@ -1,0 +1,12 @@
+{
+  "type": "takeoutsmoreores:refinery",
+  "ingredients": [
+    {
+      "item": "takeoutsmoreores:raw_uranium"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "takeoutsmoreores:refined_uranium"
+  }
+}

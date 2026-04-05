@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "takeoutsmoreores:thimeite"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "R": {
+      "item": "takeoutsmoreores:riftium_shard"
+    }
+  },
+  "pattern": [
+    "III",
+    "IRI",
+    "OOO"
+  ],
+  "result": {
+    "item": "takeoutsmoreores:refinery_block"
+  },
+  "show_notification": true
+}

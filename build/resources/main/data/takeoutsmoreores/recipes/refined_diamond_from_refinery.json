@@ -1,0 +1,12 @@
+{
+  "type": "takeoutsmoreores:refinery",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "takeoutsmoreores:refined_diamond"
+  }
+}

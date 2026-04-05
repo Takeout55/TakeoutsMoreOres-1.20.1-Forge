@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "takeoutsmoreores:riftium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "takeoutsmoreores:riftium_shard"
+  }
+}

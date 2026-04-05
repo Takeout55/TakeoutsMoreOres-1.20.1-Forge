@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "takeoutsmoreores:block/faded_magnolia_planks",
+    "side": "takeoutsmoreores:block/faded_magnolia_planks",
+    "top": "takeoutsmoreores:block/faded_magnolia_planks"
+  }
+}
