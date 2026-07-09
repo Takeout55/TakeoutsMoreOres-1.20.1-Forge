@@ -351,13 +351,13 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     //Plungite Tools
     public static final RegistryObject<Item> PLUNGITE_SWORD = ITEMS.register("plungite_sword",
-            () -> new SwordItem(ModToolTiers.PLUNGITE, 3, -2.4f, new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.PLUNGITE, 2, -2.4f, new Item.Properties()));
 
     public static final RegistryObject<Item> PLUNGITE_PICKAXE = ITEMS.register("plungite_pickaxe",
             () -> new PickaxeItem(ModToolTiers.PLUNGITE, 1, -2.8f, new Item.Properties()));
 
     public static final RegistryObject<Item> PLUNGITE_AXE = ITEMS.register("plungite_axe",
-            () -> new AxeItem(ModToolTiers.PLUNGITE, 5, -3, new Item.Properties()));
+            () -> new AxeItem(ModToolTiers.PLUNGITE, 3, -3, new Item.Properties()));
 
     public static final RegistryObject<Item> PLUNGITE_SHOVEL = ITEMS.register("plungite_shovel",
             () -> new ShovelItem(ModToolTiers.PLUNGITE, 1.5f, -3, new Item.Properties()));

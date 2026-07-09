@@ -171,7 +171,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.END_STONE_RIFTIUM_ORE.get(),
                         ModBlocks.NETHER_RIFTIUM_ORE.get(),
                         ModBlocks.DEEPSLATE_RIFTIUM_ORE.get(),
-                        ModBlocks.RIFTIUM_BLOCK.get());
+                        ModBlocks.RIFTIUM_BLOCK.get(),
+                        ModBlocks.REFINERY.get());
 
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)

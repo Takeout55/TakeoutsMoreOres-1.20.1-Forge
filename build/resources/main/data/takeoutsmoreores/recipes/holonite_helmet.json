@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "takeoutsmoreores:holonite"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "S S",
+    "   "
+  ],
+  "result": {
+    "item": "takeoutsmoreores:holonite_helmet"
+  },
+  "show_notification": true
+}

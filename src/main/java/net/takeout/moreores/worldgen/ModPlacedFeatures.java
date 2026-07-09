@@ -43,6 +43,7 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> END_MULTIVERSIUM_ORE_PLACED_KEY = registerKey("end_multiversium_ore_placed");
     public static final ResourceKey<PlacedFeature> END_FROZEN_TAKEITE_ORE_PLACED_KEY = registerKey("end_frozen_takeite_ore_placed");
     public static final ResourceKey<PlacedFeature> END_FOXTROGEN_ORE_PLACED_KEY = registerKey("end_foxtrogen_ore_placed");
+    public static final ResourceKey<PlacedFeature> END_RIFTIUM_ORE_PLACED_KEY = registerKey("end_riftium_ore_placed");
 
     //Tree Keys
     public static final ResourceKey<PlacedFeature> PINE_PLACED_KEY = registerKey("pine_placed");
@@ -137,6 +138,10 @@ public class ModPlacedFeatures {
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(70))));
 
         register(context, END_FOXTROGEN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.END_STONE_FOXTROGEN_ORE_KEY),
+                ModOrePlacement.commonOrePlacement(9,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(70))));
+
+        register(context, END_RIFTIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.END_STONE_RIFTIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(9,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(70))));
 

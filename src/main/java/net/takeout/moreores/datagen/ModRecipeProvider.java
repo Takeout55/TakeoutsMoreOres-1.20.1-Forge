@@ -490,6 +490,37 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.HOLONITE_CHESTPLATE.get())
+                .pattern("S S")
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S', ModItems.HOLONITE.get())
+                .unlockedBy(getHasName(ModItems.HOLONITE.get()), has(ModItems.HOLONITE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.HOLONITE_HELMET.get())
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("   ")
+                .define('S', ModItems.HOLONITE.get())
+                .unlockedBy(getHasName(ModItems.HOLONITE.get()), has(ModItems.HOLONITE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.HOLONITE_BOOTS.get())
+                .pattern("S S")
+                .pattern("S S")
+                .define('S', ModItems.HOLONITE.get())
+                .unlockedBy(getHasName(ModItems.HOLONITE.get()), has(ModItems.HOLONITE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.HOLONITE_LEGGINGS.get())
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("S S")
+                .define('S', ModItems.HOLONITE.get())
+                .unlockedBy(getHasName(ModItems.HOLONITE.get()), has(ModItems.HOLONITE.get()))
+                .save(pWriter);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.REFINED_DIAMOND_CHESTPLATE.get())
                 .pattern("S S")
                 .pattern("SSS")

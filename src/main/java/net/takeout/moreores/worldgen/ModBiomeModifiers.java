@@ -40,6 +40,7 @@ public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_END_MULTIVERSIUM_ORE = registerKey("add_end_multiversium_ore");
     public static final ResourceKey<BiomeModifier> ADD_END_FROZEN_TAKEITE_ORE = registerKey("add_end_frozen_takeite_ore");
     public static final ResourceKey<BiomeModifier> ADD_END_FOXTROGEN_ORE = registerKey("add_end_foxtrogen_ore");
+    public static final ResourceKey<BiomeModifier> ADD_END_RIFTIUM_ORE = registerKey("add_end_riftium_ore");
 
     //Trees
     public static final ResourceKey<BiomeModifier> ADD_PINE_TREE = registerKey("add_pine_tree");
@@ -152,6 +153,11 @@ public class ModBiomeModifiers {
         context.register(ADD_END_FOXTROGEN_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_END),
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.END_FOXTROGEN_ORE_PLACED_KEY)),
+                GenerationStep.Decoration.UNDERGROUND_ORES));
+
+        context.register(ADD_END_RIFTIUM_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(BiomeTags.IS_END),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.END_RIFTIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
         //Trees

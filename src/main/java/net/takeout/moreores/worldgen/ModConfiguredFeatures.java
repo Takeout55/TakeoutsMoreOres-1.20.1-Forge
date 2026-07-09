@@ -53,6 +53,7 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_MULTIVERSIUM_ORE_KEY = registerKey("end_stone_multiversium_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_FROZEN_TAKEITE_ORE_KEY = registerKey("end_stone_frozen_takeite_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_FOXTROGEN_ORE_KEY = registerKey("end_stone_foxtrogen_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_RIFTIUM_ORE_KEY = registerKey("end_stone_riftium_ore");
 
     //Tree Keys
     public static final ResourceKey<ConfiguredFeature<?, ?>> PINE_KEY = registerKey("pine");
@@ -151,9 +152,12 @@ public class ModConfiguredFeatures {
                 ModBlocks.END_STONE_FROZEN_TAKEITE_ORE.get().defaultBlockState(),  9));
 
         register(context, END_STONE_FOXTROGEN_ORE_KEY, Feature.ORE, new OreConfiguration(endstoneReplaceables,
-                ModBlocks.END_STONE_FOXTROGEN_ORE.get().defaultBlockState(),  9));
+                ModBlocks.END_STONE_FOXTROGEN_ORE.get().defaultBlockState(), 9));
 
-        //Tree Registration
+        register(context, END_STONE_RIFTIUM_ORE_KEY, Feature.ORE, new OreConfiguration(endstoneReplaceables,
+                ModBlocks.END_STONE_RIFTIUM_ORE.get().defaultBlockState(),9));
+
+                //Tree Registration
         register(context, PINE_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(ModBlocks.PINE_LOG.get()),
                 new StraightTrunkPlacer(5,4,3),

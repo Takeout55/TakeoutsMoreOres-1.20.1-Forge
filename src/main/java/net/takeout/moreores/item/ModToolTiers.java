@@ -33,7 +33,7 @@ public class ModToolTiers {
             new ResourceLocation(MoreOres.MOD_ID, "glitchite"), List.of(Tiers.DIAMOND), List.of());
 
     public static final Tier PLUNGITE = TierSortingRegistry.registerTier(
-            new ForgeTier(3, 992, 7.0f, 3.0f, 8,
+            new ForgeTier(3, 600, 6.0f, 3.0f, 8,
                     ModTags.Blocks.NEEDS_PLUNGITE_TOOL, () -> Ingredient.of(ModItems.PLUNGITE.get())),
             new ResourceLocation(MoreOres.MOD_ID, "plungite"), List.of(Tiers.DIAMOND), List.of());
 
