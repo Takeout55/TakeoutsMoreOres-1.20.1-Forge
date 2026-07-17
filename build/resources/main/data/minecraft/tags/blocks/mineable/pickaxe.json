@@ -80,6 +80,7 @@
     "takeoutsmoreores:end_stone_riftium_ore",
     "takeoutsmoreores:nether_riftium_ore",
     "takeoutsmoreores:deepslate_riftium_ore",
-    "takeoutsmoreores:riftium_block"
+    "takeoutsmoreores:riftium_block",
+    "takeoutsmoreores:refinery_block"
   ]
 }

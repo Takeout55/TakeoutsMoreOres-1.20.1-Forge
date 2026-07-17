@@ -1,7 +1,37 @@
 {
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-05-13 17:23:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:meadow": "2026-05-13 17:23:47 +0100"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/end_crystal": {
     "criteria": {
       "has_ender_eye": "2026-05-13 17:24:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2026-05-13 17:24:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-05-13 17:25:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-05-13 17:25:08 +0100"
     },
     "done": true
   },
@@ -17,33 +47,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crafting_table": {
+  "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "unlock_right_away": "2026-05-13 17:23:46 +0100"
+      "has_bone_meal": "2026-07-17 21:31:51 +0100"
     },
     "done": true
   },
-  "minecraft:end/root": {
+  "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
-      "entered_end": "2026-05-13 17:25:08 +0100"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:meadow": "2026-05-13 17:23:47 +0100"
-    },
-    "done": false
-  },
-  "minecraft:recipes/decorations/ender_chest": {
-    "criteria": {
-      "has_ender_eye": "2026-05-13 17:24:57 +0100"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_end": {
-    "criteria": {
-      "entered_end": "2026-05-13 17:25:08 +0100"
+      "has_bone_meal": "2026-07-17 21:31:51 +0100"
     },
     "done": true
   },

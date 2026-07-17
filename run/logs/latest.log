@@ -1,352 +1,224 @@
-[13May2026 17:22:43.761] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Carwy\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[13May2026 17:22:43.775] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Microsoft; OS Windows 11 arch amd64 version 10.0
-[13May2026 17:22:43.930] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[13May2026 17:22:44.242] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[13May2026 17:22:44.571] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[13May2026 17:22:44.797] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Carwy/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[13May2026 17:22:45.010] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2 GL version 4.6.0 NVIDIA 595.97, NVIDIA Corporation
-[13May2026 17:22:45.197] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Carwy\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.0\f0c0b352173d0a378cbdcec9cfc4ba65899a721\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[13May2026 17:22:45.203] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Carwy\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.0\e862740d8c84d08dbfedea412bef88fe42e727c5\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[13May2026 17:22:45.209] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Carwy\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.0\5719b3a297a33f877ed5dde4cb4bd75c859096af\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[13May2026 17:22:45.232] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Carwy\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.0\235975dafa4309945b59c56b53f31dc5b65a6051\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[13May2026 17:22:45.369] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[13May2026 17:22:48.423] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Carwy\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[13May2026 17:22:53.462] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 165 milliseconds
-[13May2026 17:22:55.636] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Carwy/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[13May2026 17:22:55.637] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Carwy/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[13May2026 17:22:55.674] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13May2026 17:22:55.682] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[13May2026 17:22:55.839] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[13May2026 17:22:56.219] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
-[13May2026 17:22:56.219] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
-[13May2026 17:22:56.388] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[13May2026 17:22:56.392] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 2.973 ms
-[13May2026 17:22:57.547] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [takeoutsmoreores]
-[13May2026 17:22:57.796] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[13May2026 17:22:57.946] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[13May2026 17:22:58.723] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[13May2026 17:22:59.048] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.4.0 Target: 47.4.10
-[13May2026 17:23:00.493] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=upper,hinge=right,open=false,powered=true'
-[13May2026 17:23:00.495] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=lower,hinge=left,open=true,powered=true'
-[13May2026 17:23:00.495] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=upper,hinge=left,open=true,powered=false'
-[13May2026 17:23:00.495] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=upper,hinge=right,open=false,powered=false'
-[13May2026 17:23:00.495] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=lower,hinge=left,open=false,powered=true'
-[13May2026 17:23:00.495] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=lower,hinge=right,open=true,powered=false'
-[13May2026 17:23:00.495] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=upper,hinge=left,open=false,powered=false'
-[13May2026 17:23:00.495] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=lower,hinge=right,open=false,powered=true'
-[13May2026 17:23:00.495] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=lower,hinge=left,open=true,powered=true'
-[13May2026 17:23:00.495] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=lower,hinge=right,open=true,powered=false'
-[13May2026 17:23:00.495] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=lower,hinge=right,open=false,powered=false'
-[13May2026 17:23:00.495] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=upper,hinge=left,open=false,powered=true'
-[13May2026 17:23:00.495] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=lower,hinge=left,open=true,powered=false'
-[13May2026 17:23:00.495] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=upper,hinge=left,open=false,powered=true'
-[13May2026 17:23:00.496] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=upper,hinge=right,open=true,powered=true'
-[13May2026 17:23:00.496] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=upper,hinge=left,open=true,powered=true'
-[13May2026 17:23:00.496] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=lower,hinge=right,open=false,powered=true'
-[13May2026 17:23:00.511] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=upper,hinge=right,open=true,powered=false'
-[13May2026 17:23:00.511] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=upper,hinge=right,open=true,powered=false'
-[13May2026 17:23:00.511] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=upper,hinge=left,open=true,powered=true'
-[13May2026 17:23:00.511] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=lower,hinge=right,open=false,powered=false'
-[13May2026 17:23:00.511] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=upper,hinge=right,open=false,powered=true'
-[13May2026 17:23:00.512] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=lower,hinge=left,open=true,powered=false'
-[13May2026 17:23:00.512] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=lower,hinge=left,open=false,powered=false'
-[13May2026 17:23:00.512] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=lower,hinge=right,open=false,powered=true'
-[13May2026 17:23:00.512] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=upper,hinge=left,open=false,powered=false'
-[13May2026 17:23:00.512] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=lower,hinge=right,open=true,powered=false'
-[13May2026 17:23:00.512] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=lower,hinge=right,open=true,powered=true'
-[13May2026 17:23:00.512] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=upper,hinge=left,open=true,powered=false'
-[13May2026 17:23:00.512] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=lower,hinge=right,open=true,powered=true'
-[13May2026 17:23:00.512] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=lower,hinge=left,open=false,powered=false'
-[13May2026 17:23:00.512] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=lower,hinge=right,open=false,powered=false'
-[13May2026 17:23:00.512] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=upper,hinge=left,open=true,powered=true'
-[13May2026 17:23:00.513] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=lower,hinge=right,open=true,powered=true'
-[13May2026 17:23:00.513] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=upper,hinge=right,open=true,powered=true'
-[13May2026 17:23:00.513] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=upper,hinge=right,open=true,powered=true'
-[13May2026 17:23:00.513] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=lower,hinge=left,open=false,powered=true'
-[13May2026 17:23:00.513] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=lower,hinge=left,open=true,powered=false'
-[13May2026 17:23:00.513] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=lower,hinge=left,open=false,powered=true'
-[13May2026 17:23:00.513] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=upper,hinge=left,open=false,powered=true'
-[13May2026 17:23:00.515] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=upper,hinge=left,open=false,powered=false'
-[13May2026 17:23:00.515] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=upper,hinge=right,open=false,powered=false'
-[13May2026 17:23:00.515] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=upper,hinge=left,open=true,powered=false'
-[13May2026 17:23:00.515] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=upper,hinge=right,open=false,powered=false'
-[13May2026 17:23:00.515] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=lower,hinge=left,open=false,powered=false'
-[13May2026 17:23:00.515] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=upper,hinge=right,open=false,powered=false'
-[13May2026 17:23:00.515] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=upper,hinge=left,open=false,powered=true'
-[13May2026 17:23:00.515] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=upper,hinge=right,open=false,powered=true'
-[13May2026 17:23:00.515] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=lower,hinge=left,open=true,powered=true'
-[13May2026 17:23:00.516] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=lower,hinge=left,open=false,powered=false'
-[13May2026 17:23:00.516] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=upper,hinge=left,open=true,powered=true'
-[13May2026 17:23:00.516] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=lower,hinge=right,open=false,powered=true'
-[13May2026 17:23:00.516] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=upper,hinge=right,open=true,powered=true'
-[13May2026 17:23:00.516] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=lower,hinge=left,open=false,powered=true'
-[13May2026 17:23:00.516] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=lower,hinge=left,open=true,powered=false'
-[13May2026 17:23:00.516] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=upper,hinge=right,open=true,powered=false'
-[13May2026 17:23:00.516] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=upper,hinge=right,open=false,powered=true'
-[13May2026 17:23:00.517] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=upper,hinge=right,open=true,powered=false'
-[13May2026 17:23:00.517] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=lower,hinge=right,open=true,powered=false'
-[13May2026 17:23:00.517] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=upper,hinge=left,open=false,powered=false'
-[13May2026 17:23:00.517] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=lower,hinge=right,open=false,powered=false'
-[13May2026 17:23:00.517] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=upper,hinge=left,open=true,powered=false'
-[13May2026 17:23:00.517] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=lower,hinge=left,open=true,powered=true'
-[13May2026 17:23:00.517] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=lower,hinge=right,open=true,powered=true'
-[13May2026 17:23:00.813] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'takeoutsmoreores:glitchite_door#inventory' referenced from: takeoutsmoreores:glitchite_door#inventory: java.io.FileNotFoundException: takeoutsmoreores:models/item/glitchite_door.json
-[13May2026 17:23:03.005] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[13May2026 17:23:03.005] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[13May2026 17:23:03.049] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (High Definition Audio Device)
-[13May2026 17:23:03.049] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[13May2026 17:23:03.151] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[13May2026 17:23:03.160] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[13May2026 17:23:03.162] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[13May2026 17:23:03.162] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[13May2026 17:23:03.163] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[13May2026 17:23:03.165] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[13May2026 17:23:03.168] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[13May2026 17:23:03.168] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[13May2026 17:23:03.169] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[13May2026 17:23:03.476] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[13May2026 17:23:03.842] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[13May2026 17:23:03.843] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[13May2026 17:23:03.843] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[13May2026 17:23:03.846] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
-[13May2026 17:23:04.033] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[13May2026 17:23:13.433] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
-[13May2026 17:23:13.561] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1607 advancements
-[13May2026 17:23:15.989] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[13May2026 17:23:15.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[13May2026 17:23:16.218] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World (3)\serverconfig\jei-server.toml is not correct. Correcting
-[13May2026 17:23:16.219] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
-[13May2026 17:23:16.220] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
-[13May2026 17:23:16.220] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
-[13May2026 17:23:16.220] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
-[13May2026 17:23:16.223] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World (3)\serverconfig\forge-server.toml is not correct. Correcting
-[13May2026 17:23:16.223] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[13May2026 17:23:16.223] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[13May2026 17:23:16.223] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[13May2026 17:23:16.223] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[13May2026 17:23:16.224] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[13May2026 17:23:16.224] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[13May2026 17:23:16.224] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[13May2026 17:23:16.224] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[13May2026 17:23:16.224] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.useItemWithDurationZero was corrected from null to its default, false. 
-[13May2026 17:23:20.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13May2026 17:23:21.164] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 17:23:21.164] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 17:23:21.667] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 17:23:22.149] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 17:23:22.635] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[13May2026 17:23:23.150] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[13May2026 17:23:23.673] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[13May2026 17:23:24.147] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[13May2026 17:23:24.641] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[13May2026 17:23:25.137] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[13May2026 17:23:25.628] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[13May2026 17:23:26.133] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[13May2026 17:23:26.628] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[13May2026 17:23:27.130] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[13May2026 17:23:27.628] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
-[13May2026 17:23:28.122] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
-[13May2026 17:23:28.622] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[13May2026 17:23:29.123] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[13May2026 17:23:29.631] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[13May2026 17:23:30.131] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
-[13May2026 17:23:30.626] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
-[13May2026 17:23:31.141] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
-[13May2026 17:23:31.621] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[13May2026 17:23:32.290] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[13May2026 17:23:32.646] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[13May2026 17:23:33.131] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
-[13May2026 17:23:33.625] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
-[13May2026 17:23:34.122] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
-[13May2026 17:23:34.652] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[13May2026 17:23:35.133] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[13May2026 17:23:35.622] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
-[13May2026 17:23:36.131] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
-[13May2026 17:23:36.622] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
-[13May2026 17:23:37.131] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[13May2026 17:23:37.645] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
-[13May2026 17:23:38.137] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
-[13May2026 17:23:38.632] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[13May2026 17:23:39.131] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
-[13May2026 17:23:39.631] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
-[13May2026 17:23:40.148] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
-[13May2026 17:23:40.621] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
-[13May2026 17:23:41.128] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
-[13May2026 17:23:41.631] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
-[13May2026 17:23:42.127] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[13May2026 17:23:42.634] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
-[13May2026 17:23:43.130] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
-[13May2026 17:23:43.640] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
-[13May2026 17:23:44.132] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[13May2026 17:23:44.393] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[13May2026 17:23:44.404] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 23784 ms
-[13May2026 17:23:45.575] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[13May2026 17:23:45.577] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[13May2026 17:23:45.766] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[13May2026 17:23:46.438] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[13May2026 17:23:46.478] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:8103eaef] logged in with entity id 309 at (-2.5, 103.0, 3.5)
-[13May2026 17:23:46.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[13May2026 17:23:47.826] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
-[13May2026 17:23:48.436] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
-[13May2026 17:23:48.452] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@4cb25b53=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/takeoutsmoreores:refined_diamond_from_refinery
-[13May2026 17:23:48.452] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@278e721e=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/takeoutsmoreores:frozen_takeite_gem_from_refinery
-[13May2026 17:23:48.457] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2fc2305a=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/takeoutsmoreores:refined_uranium_from_refinery
-[13May2026 17:23:48.458] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@458f1355=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/takeoutsmoreores:flaming_takeite_gem_from_refinery
-[13May2026 17:23:48.609] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
-[13May2026 17:23:48.629] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
-[13May2026 17:23:48.629] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
-[13May2026 17:23:48.630] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
-[13May2026 17:23:48.638] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
-[13May2026 17:23:48.643] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 4.321 ms
-[13May2026 17:23:48.643] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
-[13May2026 17:23:48.645] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 1.902 ms
-[13May2026 17:23:48.647] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
-[13May2026 17:23:48.684] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. Operator Utilities
-[13May2026 17:23:48.711] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 63.83 milliseconds
-[13May2026 17:23:48.711] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 64.47 ms
-[13May2026 17:23:48.723] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
-[13May2026 17:23:48.747] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 23.05 milliseconds
-[13May2026 17:23:48.751] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 27.37 ms
-[13May2026 17:23:48.752] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
-[13May2026 17:23:48.756] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 3.635 ms
-[13May2026 17:23:48.758] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
-[13May2026 17:23:48.760] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 748.2 μs
-[13May2026 17:23:48.762] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
-[13May2026 17:23:48.763] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 1.092 ms
-[13May2026 17:23:48.763] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
-[13May2026 17:23:48.776] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 12.22 ms
-[13May2026 17:23:48.778] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
-[13May2026 17:23:49.055] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 276.4 milliseconds
-[13May2026 17:23:49.056] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 277.5 ms
-[13May2026 17:23:49.061] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
-[13May2026 17:23:49.064] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 2.981 ms
-[13May2026 17:23:49.069] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
-[13May2026 17:23:49.073] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
-[13May2026 17:23:49.083] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 9.440 ms
-[13May2026 17:23:49.090] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
-[13May2026 17:23:49.095] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
-[13May2026 17:23:49.096] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
-[13May2026 17:23:49.100] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 4.494 ms
-[13May2026 17:23:49.100] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
-[13May2026 17:23:49.181] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 1940 ingredients
-[13May2026 17:23:49.432] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 1940/1940 ingredients
-[13May2026 17:23:49.433] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 333.5 ms
-[13May2026 17:23:49.581] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 490.3 milliseconds
-[13May2026 17:23:49.581] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 491.2 ms
-[13May2026 17:23:49.583] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 514.2 ms
-[13May2026 17:23:49.583] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
-[13May2026 17:23:49.585] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 409.2 μs
-[13May2026 17:23:49.585] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 954.3 ms
-[13May2026 17:23:49.749] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
-[13May2026 17:23:51.057] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[13May2026 17:23:51.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13May2026 17:23:51.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13May2026 17:23:51.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[13May2026 17:24:57.964] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4 advancements
-[13May2026 17:25:08.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The End?]
-[13May2026 17:25:08.437] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[13May2026 17:25:08.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13May2026 17:25:08.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13May2026 17:25:08.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[13May2026 17:25:10.565] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [The End?]
-[13May2026 17:25:10.749] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 19 advancements
-[13May2026 17:25:10.756] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Scanning for legacy world dragon fight...
-[13May2026 17:25:10.758] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Found that the dragon has not yet been killed in this world.
-[13May2026 17:25:13.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
-[13May2026 17:25:13.709] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Spectator Mode
-[13May2026 17:25:14.840] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2026-05-13_17.25.14.png
-[13May2026 17:25:16.144] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[13May2026 17:25:16.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13May2026 17:25:16.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13May2026 17:25:16.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[13May2026 17:25:31.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[13May2026 17:25:31.850] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[13May2026 17:25:34.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[13May2026 17:25:34.503] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[13May2026 17:25:34.810] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 21 advancements
-[13May2026 17:26:08.696] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[13May2026 17:26:08.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13May2026 17:26:08.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13May2026 17:26:08.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[13May2026 17:26:34.995] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[13May2026 17:26:35.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13May2026 17:26:35.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13May2026 17:26:35.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[13May2026 17:34:02.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 300 entities]
-[13May2026 17:34:02.968] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 300 entities
-[13May2026 17:34:04.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 373 entities]
-[13May2026 17:34:04.648] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 373 entities
-[13May2026 17:34:05.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 46 entities]
-[13May2026 17:34:05.166] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 46 entities
-[13May2026 17:34:05.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 6 entities]
-[13May2026 17:34:05.468] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 6 entities
-[13May2026 17:34:05.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 10 entities]
-[13May2026 17:34:05.681] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 10 entities
-[13May2026 17:34:05.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 29 entities]
-[13May2026 17:34:05.897] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 29 entities
-[13May2026 17:34:06.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 28 entities]
-[13May2026 17:34:06.100] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 28 entities
-[13May2026 17:34:06.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 30 entities]
-[13May2026 17:34:06.318] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 30 entities
-[13May2026 17:34:06.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 8 entities]
-[13May2026 17:34:06.534] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 8 entities
-[13May2026 17:34:06.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 4 entities]
-[13May2026 17:34:06.750] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 4 entities
-[13May2026 17:34:06.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 21 entities]
-[13May2026 17:34:06.968] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 21 entities
-[13May2026 17:34:07.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 31 entities]
-[13May2026 17:34:07.185] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 31 entities
-[13May2026 17:34:07.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 19 entities]
-[13May2026 17:34:07.416] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 19 entities
-[13May2026 17:34:07.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 21 entities]
-[13May2026 17:34:07.619] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 21 entities
-[13May2026 17:34:07.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 14 entities]
-[13May2026 17:34:07.851] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 14 entities
-[13May2026 17:34:08.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 5 entities]
-[13May2026 17:34:08.084] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 5 entities
-[13May2026 17:34:08.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 23 entities]
-[13May2026 17:34:08.333] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 23 entities
-[13May2026 17:34:08.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 30 entities]
-[13May2026 17:34:08.568] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 30 entities
-[13May2026 17:34:08.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 29 entities]
-[13May2026 17:34:08.801] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 29 entities
-[13May2026 17:34:09.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 14 entities]
-[13May2026 17:34:09.035] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 14 entities
-[13May2026 17:34:09.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 6 entities]
-[13May2026 17:34:09.285] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 6 entities
-[13May2026 17:34:09.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 20 entities]
-[13May2026 17:34:09.519] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 20 entities
-[13May2026 17:34:09.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 18 entities]
-[13May2026 17:34:09.768] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 18 entities
-[13May2026 17:34:10.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 33 entities]
-[13May2026 17:34:10.018] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 33 entities
-[13May2026 17:34:10.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 26 entities]
-[13May2026 17:34:10.236] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 26 entities
-[13May2026 17:34:10.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 9 entities]
-[13May2026 17:34:10.486] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 9 entities
-[13May2026 17:34:10.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 21 entities]
-[13May2026 17:34:10.736] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 21 entities
-[13May2026 17:34:11.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 23 entities]
-[13May2026 17:34:11.002] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 23 entities
-[13May2026 17:34:11.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 30 entities]
-[13May2026 17:34:11.252] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 30 entities
-[13May2026 17:34:11.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 22 entities]
-[13May2026 17:34:11.536] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 22 entities
-[13May2026 17:34:11.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 22 entities]
-[13May2026 17:34:11.785] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 22 entities
-[13May2026 17:34:12.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 22 entities]
-[13May2026 17:34:12.036] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 22 entities
-[13May2026 17:34:12.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 20 entities]
-[13May2026 17:34:12.318] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 20 entities
-[13May2026 17:34:12.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 20 entities]
-[13May2026 17:34:12.586] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 20 entities
-[13May2026 17:34:12.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 35 entities]
-[13May2026 17:34:12.852] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 35 entities
-[13May2026 17:34:13.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 19 entities]
-[13May2026 17:34:13.132] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 19 entities
-[13May2026 17:34:13.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 26 entities]
-[13May2026 17:34:13.386] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 26 entities
-[13May2026 17:34:20.195] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[13May2026 17:34:20.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13May2026 17:34:20.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13May2026 17:34:20.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17Jul2026 21:28:22.667] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Carwy\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[17Jul2026 21:28:22.677] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Microsoft; OS Windows 11 arch amd64 version 10.0
+[17Jul2026 21:28:22.824] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[17Jul2026 21:28:23.077] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[17Jul2026 21:28:23.440] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[17Jul2026 21:28:23.620] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Carwy/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[17Jul2026 21:28:23.841] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2 GL version 4.6.0 NVIDIA 595.97, NVIDIA Corporation
+[17Jul2026 21:28:24.056] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Carwy\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.0\f0c0b352173d0a378cbdcec9cfc4ba65899a721\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[17Jul2026 21:28:24.072] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Carwy\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.0\e862740d8c84d08dbfedea412bef88fe42e727c5\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[17Jul2026 21:28:24.101] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Carwy\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.0\5719b3a297a33f877ed5dde4cb4bd75c859096af\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[17Jul2026 21:28:24.118] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Carwy\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.0\235975dafa4309945b59c56b53f31dc5b65a6051\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[17Jul2026 21:28:24.261] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[17Jul2026 21:28:27.230] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Carwy\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[17Jul2026 21:28:32.130] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 164 milliseconds
+[17Jul2026 21:28:34.358] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Carwy/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[17Jul2026 21:28:34.359] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Carwy/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[17Jul2026 21:28:34.410] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17Jul2026 21:28:34.425] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[17Jul2026 21:28:34.701] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[17Jul2026 21:28:35.205] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[17Jul2026 21:28:35.205] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[17Jul2026 21:28:35.523] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[17Jul2026 21:28:35.528] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 3.836 ms
+[17Jul2026 21:28:37.208] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [takeoutsmoreores]
+[17Jul2026 21:28:37.376] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[17Jul2026 21:28:37.577] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[17Jul2026 21:28:37.638] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[17Jul2026 21:28:38.342] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.4.0 Target: 47.4.10
+[17Jul2026 21:28:40.404] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=upper,hinge=right,open=false,powered=true'
+[17Jul2026 21:28:40.405] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=lower,hinge=left,open=true,powered=true'
+[17Jul2026 21:28:40.405] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=upper,hinge=left,open=true,powered=false'
+[17Jul2026 21:28:40.405] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=upper,hinge=right,open=false,powered=false'
+[17Jul2026 21:28:40.405] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=lower,hinge=left,open=false,powered=true'
+[17Jul2026 21:28:40.405] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=lower,hinge=right,open=true,powered=false'
+[17Jul2026 21:28:40.405] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=upper,hinge=left,open=false,powered=false'
+[17Jul2026 21:28:40.405] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=lower,hinge=right,open=false,powered=true'
+[17Jul2026 21:28:40.405] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=lower,hinge=left,open=true,powered=true'
+[17Jul2026 21:28:40.405] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=lower,hinge=right,open=true,powered=false'
+[17Jul2026 21:28:40.405] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=lower,hinge=right,open=false,powered=false'
+[17Jul2026 21:28:40.405] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=upper,hinge=left,open=false,powered=true'
+[17Jul2026 21:28:40.405] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=lower,hinge=left,open=true,powered=false'
+[17Jul2026 21:28:40.405] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=upper,hinge=left,open=false,powered=true'
+[17Jul2026 21:28:40.407] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=upper,hinge=right,open=true,powered=true'
+[17Jul2026 21:28:40.407] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=upper,hinge=left,open=true,powered=true'
+[17Jul2026 21:28:40.407] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=lower,hinge=right,open=false,powered=true'
+[17Jul2026 21:28:40.407] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=upper,hinge=right,open=true,powered=false'
+[17Jul2026 21:28:40.407] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=upper,hinge=right,open=true,powered=false'
+[17Jul2026 21:28:40.407] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=upper,hinge=left,open=true,powered=true'
+[17Jul2026 21:28:40.408] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=lower,hinge=right,open=false,powered=false'
+[17Jul2026 21:28:40.408] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=upper,hinge=right,open=false,powered=true'
+[17Jul2026 21:28:40.408] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=lower,hinge=left,open=true,powered=false'
+[17Jul2026 21:28:40.408] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=lower,hinge=left,open=false,powered=false'
+[17Jul2026 21:28:40.408] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=lower,hinge=right,open=false,powered=true'
+[17Jul2026 21:28:40.408] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=upper,hinge=left,open=false,powered=false'
+[17Jul2026 21:28:40.408] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=lower,hinge=right,open=true,powered=false'
+[17Jul2026 21:28:40.408] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=lower,hinge=right,open=true,powered=true'
+[17Jul2026 21:28:40.408] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=upper,hinge=left,open=true,powered=false'
+[17Jul2026 21:28:40.408] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=lower,hinge=right,open=true,powered=true'
+[17Jul2026 21:28:40.408] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=lower,hinge=left,open=false,powered=false'
+[17Jul2026 21:28:40.408] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=lower,hinge=right,open=false,powered=false'
+[17Jul2026 21:28:40.408] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=upper,hinge=left,open=true,powered=true'
+[17Jul2026 21:28:40.408] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=lower,hinge=right,open=true,powered=true'
+[17Jul2026 21:28:40.409] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=upper,hinge=right,open=true,powered=true'
+[17Jul2026 21:28:40.409] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=upper,hinge=right,open=true,powered=true'
+[17Jul2026 21:28:40.409] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=lower,hinge=left,open=false,powered=true'
+[17Jul2026 21:28:40.410] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=lower,hinge=left,open=true,powered=false'
+[17Jul2026 21:28:40.410] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=lower,hinge=left,open=false,powered=true'
+[17Jul2026 21:28:40.410] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=upper,hinge=left,open=false,powered=true'
+[17Jul2026 21:28:40.410] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=upper,hinge=left,open=false,powered=false'
+[17Jul2026 21:28:40.410] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=upper,hinge=right,open=false,powered=false'
+[17Jul2026 21:28:40.410] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=upper,hinge=left,open=true,powered=false'
+[17Jul2026 21:28:40.410] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=upper,hinge=right,open=false,powered=false'
+[17Jul2026 21:28:40.410] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=lower,hinge=left,open=false,powered=false'
+[17Jul2026 21:28:40.410] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=upper,hinge=right,open=false,powered=false'
+[17Jul2026 21:28:40.411] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=upper,hinge=left,open=false,powered=true'
+[17Jul2026 21:28:40.411] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=upper,hinge=right,open=false,powered=true'
+[17Jul2026 21:28:40.411] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=lower,hinge=left,open=true,powered=true'
+[17Jul2026 21:28:40.411] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=lower,hinge=left,open=false,powered=false'
+[17Jul2026 21:28:40.411] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=upper,hinge=left,open=true,powered=true'
+[17Jul2026 21:28:40.411] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=south,half=lower,hinge=right,open=false,powered=true'
+[17Jul2026 21:28:40.411] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=upper,hinge=right,open=true,powered=true'
+[17Jul2026 21:28:40.411] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=lower,hinge=left,open=false,powered=true'
+[17Jul2026 21:28:40.411] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=lower,hinge=left,open=true,powered=false'
+[17Jul2026 21:28:40.411] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=upper,hinge=right,open=true,powered=false'
+[17Jul2026 21:28:40.413] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=upper,hinge=right,open=false,powered=true'
+[17Jul2026 21:28:40.413] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=east,half=upper,hinge=right,open=true,powered=false'
+[17Jul2026 21:28:40.413] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=lower,hinge=right,open=true,powered=false'
+[17Jul2026 21:28:40.414] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=upper,hinge=left,open=false,powered=false'
+[17Jul2026 21:28:40.414] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=north,half=lower,hinge=right,open=false,powered=false'
+[17Jul2026 21:28:40.414] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=upper,hinge=left,open=true,powered=false'
+[17Jul2026 21:28:40.414] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=lower,hinge=left,open=true,powered=true'
+[17Jul2026 21:28:40.414] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'takeoutsmoreores:blockstates/glitchite_door.json' missing model for variant: 'takeoutsmoreores:glitchite_door#facing=west,half=lower,hinge=right,open=true,powered=true'
+[17Jul2026 21:28:40.547] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'takeoutsmoreores:glitchite_door#inventory' referenced from: takeoutsmoreores:glitchite_door#inventory: java.io.FileNotFoundException: takeoutsmoreores:models/item/glitchite_door.json
+[17Jul2026 21:28:42.666] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[17Jul2026 21:28:42.667] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[17Jul2026 21:28:42.711] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Razer Barracuda X)
+[17Jul2026 21:28:42.712] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[17Jul2026 21:28:42.827] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[17Jul2026 21:28:42.837] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[17Jul2026 21:28:42.840] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[17Jul2026 21:28:42.841] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[17Jul2026 21:28:42.842] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[17Jul2026 21:28:42.846] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[17Jul2026 21:28:42.851] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[17Jul2026 21:28:42.851] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[17Jul2026 21:28:42.851] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17Jul2026 21:28:43.226] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[17Jul2026 21:28:43.284] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[17Jul2026 21:28:43.285] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17Jul2026 21:28:43.286] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17Jul2026 21:28:43.287] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[17Jul2026 21:28:43.461] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[17Jul2026 21:29:43.601] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+takeoutsmoreores (version 0.1.2-1.20.1 -> 0.1.3-1.20.1)
+Things may not work well.
+[17Jul2026 21:29:43.620] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[17Jul2026 21:29:45.988] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[17Jul2026 21:29:46.112] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1611 advancements
+[17Jul2026 21:29:46.646] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[17Jul2026 21:29:46.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[17Jul2026 21:29:48.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[17Jul2026 21:29:50.242] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jul2026 21:29:50.243] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jul2026 21:29:50.243] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jul2026 21:29:50.243] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jul2026 21:29:50.566] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jul2026 21:29:50.944] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[17Jul2026 21:29:51.484] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
+[17Jul2026 21:29:51.951] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[17Jul2026 21:29:52.306] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[17Jul2026 21:29:52.318] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3881 ms
+[17Jul2026 21:29:52.646] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[17Jul2026 21:29:52.648] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[17Jul2026 21:29:52.846] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[17Jul2026 21:29:53.577] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[17Jul2026 21:29:53.642] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:b160471d] logged in with entity id 36 at (5.549820483494473, 60.0, 1.129192584622689)
+[17Jul2026 21:29:53.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[17Jul2026 21:29:56.554] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
+[17Jul2026 21:29:56.554] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[17Jul2026 21:29:56.567] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@664c0019=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/takeoutsmoreores:refined_uranium_from_refinery
+[17Jul2026 21:29:56.575] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@48405f04=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/takeoutsmoreores:refined_diamond_from_refinery
+[17Jul2026 21:29:56.576] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7f05d2bf=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/takeoutsmoreores:flaming_takeite_gem_from_refinery
+[17Jul2026 21:29:56.581] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1931223f=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/takeoutsmoreores:frozen_takeite_gem_from_refinery
+[17Jul2026 21:29:56.731] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[17Jul2026 21:29:56.745] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[17Jul2026 21:29:56.745] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[17Jul2026 21:29:56.746] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[17Jul2026 21:29:56.755] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[17Jul2026 21:29:56.761] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 5.693 ms
+[17Jul2026 21:29:56.762] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[17Jul2026 21:29:56.764] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 2.098 ms
+[17Jul2026 21:29:56.767] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[17Jul2026 21:29:56.819] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. Operator Utilities
+[17Jul2026 21:29:56.891] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 124.1 milliseconds
+[17Jul2026 21:29:56.892] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 125.0 ms
+[17Jul2026 21:29:56.909] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[17Jul2026 21:29:56.931] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 21.58 milliseconds
+[17Jul2026 21:29:56.935] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 25.41 ms
+[17Jul2026 21:29:56.936] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[17Jul2026 21:29:56.938] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 2.463 ms
+[17Jul2026 21:29:56.940] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[17Jul2026 21:29:56.941] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 781.6 μs
+[17Jul2026 21:29:56.942] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[17Jul2026 21:29:56.943] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 654.7 μs
+[17Jul2026 21:29:56.943] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[17Jul2026 21:29:56.955] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 11.89 ms
+[17Jul2026 21:29:56.957] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[17Jul2026 21:29:57.163] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 205.2 milliseconds
+[17Jul2026 21:29:57.165] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 208.1 ms
+[17Jul2026 21:29:57.170] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[17Jul2026 21:29:57.174] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 3.518 ms
+[17Jul2026 21:29:57.180] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[17Jul2026 21:29:57.187] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[17Jul2026 21:29:57.198] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 11.02 ms
+[17Jul2026 21:29:57.203] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[17Jul2026 21:29:57.206] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[17Jul2026 21:29:57.207] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[17Jul2026 21:29:57.212] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 4.047 ms
+[17Jul2026 21:29:57.212] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[17Jul2026 21:29:57.247] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 1940 ingredients
+[17Jul2026 21:29:57.481] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 1940/1940 ingredients
+[17Jul2026 21:29:57.484] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 271.4 ms
+[17Jul2026 21:29:57.608] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 402.6 milliseconds
+[17Jul2026 21:29:57.608] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 403.4 ms
+[17Jul2026 21:29:57.609] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 427.4 ms
+[17Jul2026 21:29:57.610] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[17Jul2026 21:29:57.611] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 513.3 μs
+[17Jul2026 21:29:57.611] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 864.8 ms
+[17Jul2026 21:29:57.623] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 21 advancements
+[17Jul2026 21:29:58.216] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[17Jul2026 21:29:58.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[17Jul2026 21:29:58.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[17Jul2026 21:29:58.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17Jul2026 21:30:12.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to 1000.500000, 100.000000, 10000.500000]
+[17Jul2026 21:30:12.429] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to 1000.500000, 100.000000, 10000.500000
+[17Jul2026 21:30:45.207] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[17Jul2026 21:30:45.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[17Jul2026 21:30:45.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[17Jul2026 21:30:45.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17Jul2026 21:31:51.830] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 23 advancements
+[17Jul2026 21:33:31.808] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[17Jul2026 21:33:31.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[17Jul2026 21:33:31.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[17Jul2026 21:33:31.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17Jul2026 21:33:45.623] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[17Jul2026 21:33:45.623] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[17Jul2026 21:33:45.624] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[17Jul2026 21:33:45.624] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[17Jul2026 21:33:45.624] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
+[17Jul2026 21:33:45.628] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 4.100 ms
+[17Jul2026 21:33:45.662] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[17Jul2026 21:33:45.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[17Jul2026 21:33:45.671] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[17Jul2026 21:33:45.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[17Jul2026 21:33:45.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[17Jul2026 21:33:45.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[17Jul2026 21:33:46.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[17Jul2026 21:33:46.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[17Jul2026 21:33:46.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17Jul2026 21:33:47.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (3)): All chunks are saved
+[17Jul2026 21:33:47.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17Jul2026 21:33:47.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17Jul2026 21:33:47.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17Jul2026 21:33:48.528] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
