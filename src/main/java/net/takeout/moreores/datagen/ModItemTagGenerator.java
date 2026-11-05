@@ -104,5 +104,9 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(ModBlocks.MISSING_PLANKS.get().asItem())
                 .add(ModBlocks.INFERNAL_HYPHAE_PLANKS.get().asItem())
                 .add(ModBlocks.HOLLOW_PINE_PLANKS.get().asItem());
+
+        this.tag(ItemTags.COALS)
+                .add(ModItems.GASNITE.get())
+                .add(ModItems.NETHER_GASNITE.get());
     }
 }

@@ -1670,15 +1670,22 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.RIFTIUM_SHARD.get()), has(ModItems.RIFTIUM_SHARD.get()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.REFINERY.get())
-                .pattern("III")
-                .pattern("IRI")
-                .pattern("OOO")
-                .define('R', ModItems.RIFTIUM_SHARD.get())
-                .define('O', Blocks.OBSIDIAN)
-                .define('I', ModItems.THIMEITE.get())
-                .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND))
-                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.TORCH,4)
+                .pattern("G")
+                .pattern("S")
+                .define('G', ModItems.GASNITE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.GASNITE.get()), has(ModItems.GASNITE.get()))
+                .save(pWriter,"torch_from_gasnite");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.TORCH,4)
+                .pattern("G")
+                .pattern("S")
+                .define('G', ModItems.NETHER_GASNITE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.GASNITE.get()), has(ModItems.GASNITE.get()))
+                .save(pWriter, "torch_from_nether_gasnite");
+
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 9)
                 .requires(ModBlocks.SAPPHIRE_BLOCK.get())
@@ -1789,6 +1796,84 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModItems.THIMEITE.get())
                 .unlockedBy(getHasName(ModItems.THIMEITE.get()), has(ModItems.THIMEITE.get()))
                 .save(pWriter);
+
+        //Logs into Planks
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.PINE_PLANKS.get(),4)
+                .requires(ModBlocks.PINE_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.PINE_LOG.get()), has(ModBlocks.PINE_LOG.get()))
+                .save(pWriter, "pine_planks_from_log");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.INFERNAL_HYPHAE_PLANKS.get(),4)
+                .requires(ModBlocks.INFERNAL_HYPHAE_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.INFERNAL_HYPHAE_LOG.get()), has(ModBlocks.INFERNAL_HYPHAE_LOG.get()))
+                .save(pWriter, "infernal_hyphae_planks_from_log");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.FADED_MAGNOLIA_PLANKS.get(),4)
+                .requires(ModBlocks.FADED_MAGNOLIA_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.FADED_MAGNOLIA_LOG.get()), has(ModBlocks.FADED_MAGNOLIA_LOG.get()))
+                .save(pWriter, "faded_magnolia_planks_from_log");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.MISSING_PLANKS.get(),4)
+                .requires(ModBlocks.MISSING_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.MISSING_LOG.get()), has(ModBlocks.MISSING_LOG.get()))
+                .save(pWriter, "missing_planks_from_log");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.HOLLOW_PINE_PLANKS.get(),4)
+                .requires(ModBlocks.HOLLOW_PINE_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.HOLLOW_PINE_LOG.get()), has(ModBlocks.HOLLOW_PINE_LOG.get()))
+                .save(pWriter, "hollow_pine_planks_from_log");
+
+        //Stripped Logs into Planks
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.PINE_PLANKS.get(),4)
+                .requires(ModBlocks.STRIPPED_PINE_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.STRIPPED_PINE_LOG.get()), has(ModBlocks.STRIPPED_PINE_LOG.get()))
+                .save(pWriter, "stripped_pine_planks_from_stripped_log");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.INFERNAL_HYPHAE_PLANKS.get(),4)
+                .requires(ModBlocks.STRIPPED_INFERNAL_HYPHAE_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.INFERNAL_HYPHAE_LOG.get()), has(ModBlocks.STRIPPED_INFERNAL_HYPHAE_LOG.get()))
+                .save(pWriter, "stripped_infernal_hyphae_planks_from_stripped_log");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.FADED_MAGNOLIA_PLANKS.get(),4)
+                .requires(ModBlocks.STRIPPED_FADED_MAGNOLIA_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.FADED_MAGNOLIA_LOG.get()), has(ModBlocks.STRIPPED_FADED_MAGNOLIA_LOG.get()))
+                .save(pWriter, "stripped_faded_magnolia_planks_from_stripped_log");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.MISSING_PLANKS.get(),4)
+                .requires(ModBlocks.STRIPPED_MISSING_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.MISSING_LOG.get()), has(ModBlocks.STRIPPED_MISSING_LOG.get()))
+                .save(pWriter, "stripped_missing_planks_from_stripped_log");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.HOLLOW_PINE_PLANKS.get(),4)
+                .requires(ModBlocks.STRIPPED_HOLLOW_PINE_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.STRIPPED_HOLLOW_PINE_LOG.get()), has(ModBlocks.STRIPPED_HOLLOW_PINE_LOG.get()))
+                .save(pWriter, "hollow_pine_planks_from_stripped_log");
+
+        //Woods into Planks
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.PINE_PLANKS.get(),4)
+                .requires(ModBlocks.PINE_WOOD.get())
+                .unlockedBy(getHasName(ModBlocks.PINE_WOOD.get()), has(ModBlocks.PINE_WOOD.get()))
+                .save(pWriter, "pine_planks_from_wood");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.INFERNAL_HYPHAE_PLANKS.get(),4)
+                .requires(ModBlocks.INFERNAL_HYPHAE_WOOD.get())
+                .unlockedBy(getHasName(ModBlocks.INFERNAL_HYPHAE_WOOD.get()), has(ModBlocks.INFERNAL_HYPHAE_WOOD.get()))
+                .save(pWriter, "infernal_hyphae_planks_from_wood");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.FADED_MAGNOLIA_PLANKS.get(),4)
+                .requires(ModBlocks.FADED_MAGNOLIA_WOOD.get())
+                .unlockedBy(getHasName(ModBlocks.FADED_MAGNOLIA_WOOD.get()), has(ModBlocks.FADED_MAGNOLIA_WOOD.get()))
+                .save(pWriter, "faded_magnolia_planks_from_wood");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.MISSING_PLANKS.get(),4)
+                .requires(ModBlocks.MISSING_WOOD.get())
+                .unlockedBy(getHasName(ModBlocks.MISSING_WOOD.get()), has(ModBlocks.MISSING_WOOD.get()))
+                .save(pWriter, "missing_planks_from_wood");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.HOLLOW_PINE_PLANKS.get(),4)
+                .requires(ModBlocks.HOLLOW_PINE_WOOD.get())
+                .unlockedBy(getHasName(ModBlocks.HOLLOW_PINE_WOOD.get()), has(ModBlocks.HOLLOW_PINE_WOOD.get()))
+                .save(pWriter, "hollow_pine_planks_from_wood");
 
     }
 

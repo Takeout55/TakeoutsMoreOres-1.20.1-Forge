@@ -59,5 +59,107 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/torch": {
+    "criteria": {
+      "has_gasnite": "2026-11-05 18:19:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_the_recipe": "2026-11-05 18:19:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-11-05 18:19:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-11-05 18:19:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2026-11-05 18:19:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-11-05 18:19:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-11-05 18:19:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-11-05 18:19:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-11-05 18:19:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2026-11-05 18:19:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-11-05 18:48:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/faded_magnolia_planks_from_log": {
+    "criteria": {
+      "has_faded_magnolia_log": "2026-11-05 20:04:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pine_planks_from_log": {
+    "criteria": {
+      "has_pine_log": "2026-11-05 20:04:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pine_planks_from_wood": {
+    "criteria": {
+      "has_pine_wood": "2026-11-05 20:04:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stripped_pine_planks_from_stripped_log": {
+    "criteria": {
+      "has_stripped_pine_log": "2026-11-05 20:04:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/torch_from_gasnite": {
+    "criteria": {
+      "has_gasnite": "2026-11-05 20:07:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/torch_from_nether_gasnite": {
+    "criteria": {
+      "has_gasnite": "2026-11-05 20:07:55 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
